@@ -1,0 +1,312 @@
+@import './fonts.css';
+
+
+body {
+    font-family: GiloryMedium;
+
+}
+
+.wrapper {
+    max-width: 938px;
+    margin: auto;
+}
+
+.header {
+    padding-top: 33px;
+}
+
+.top-menu {
+    display: flex;
+    padding: 0;
+    list-style: none;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.top-menu-item {
+    font-family: GiloryBold;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.top-menu-item > a {
+color: #828282;
+text-decoration: none;
+}
+.top-menu-item > a:hover {
+    color: #000000;
+}
+
+.header-line {
+    background-color: #828282;
+    height: 2px;
+    margin-bottom: 49px;
+}
+
+.logo-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.logo {
+    width: 123px;
+    height: 118px;
+    font-family: GiloryBold;
+    font-size: 47px;
+    line-height: 59px;
+}
+
+.desc {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 8px;
+}
+.lang {
+    color: #828282;
+    font-family: GiloryBold;
+    font-size: 16px;
+    transform: rotate(-90deg);
+    align-self: center;
+}
+.lang > span {
+    color: #000000;
+}
+
+.header-img {
+  display: block;  
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 104px;
+}
+
+.second {
+    height: 506;
+    background-color: #f6f6f6;
+    padding-top: 120px;
+    padding-bottom: 107px;
+}
+
+.content {
+    margin: auto;
+    width: 490px;
+    font-family: GiloryMedium;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.title-second {
+    margin-bottom: 35px;
+}
+
+.content > p {
+    margin-bottom: 45px;
+    font-weight: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+.skills {
+    height: 610px;
+    padding-bottom: 110px;
+}
+
+.skills-items {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 110px;
+}
+.skills-item {
+    width: 200px;
+    height: 181px;
+    position: relative;
+}
+
+.skill-image {
+    width: 90px;
+    height: 90px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+    margin-bottom: 23px;
+}
+
+.skill-name {
+    width: 79px;
+    font-family: GiloryBold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    margin: 0 auto;
+    color: #828282;
+}
+
+.ps{
+    background-image: url(../img/PS.png);
+}
+.al{
+    background-image: url(../img/AI.png);
+}
+.ae{
+    background-image: url(../img/AE.png);
+}
+.figma{
+    background-image: url(../img/Figma.png);
+}
+
+.stars {
+    width: 166px;
+    display: flex;
+    justify-content: space-around;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+}
+
+.star {
+    width: 20px;
+    height: 20px;
+    background-image: url(/img/Star2.png);
+}
+
+.gr {
+    background-image: url(/img/Star1.png);
+}
+
+.part3 {
+    margin: auto;
+    width: 490px;
+    font-family: GiloryMedium;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+}
+.title-third {
+    margin-bottom: 35px;
+    margin-top: 91px;
+}
+.part3 > p {
+    margin-bottom: 45px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.third {
+    height: 506;
+    background-color: #f6f6f6;
+    padding-top: 80px;
+    padding-bottom: 107px;
+}
+
+.part4 {
+    font-family: GiloryMedium;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.title-forth {
+    margin-bottom: 35px;
+}
+
+.board-item {
+    list-style-type: none;
+    font-family: GiloryBold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+    padding: 45px;
+}
+.board-item > a {
+    color: #000000;
+    text-decoration: none;
+}
+.board-item > a:hover {
+        color: #828282;
+}
+
+.img-reebok {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.item-reebok {
+    list-style-type: none;
+    font-family: GiloryBold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+}
+.item-reebok > a {
+    color: #000000;
+    text-decoration: none;
+}
+.item-reebok > a:hover {
+        color: #828282;
+}
+
+.part5 {
+    margin: auto;
+    font-family: GiloryBold;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    background-color: white;
+    height: 620px;
+    width: 2600px;
+}
+.title-fifth {
+    padding-top: 114px ;
+}
+
+.Text {
+    font-size: 18px;
+    line-height: 22px;
+    margin: auto;
+    text-align: center;
+    bottom: 0;
+}
+
+.Feedback {
+    border-radius: 35px;
+    background-color: #000000;
+    color: #ffffff;
+    width: 180px;
+    height: 42px;
+    
+}
+
+.social-media {
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+.social-img {
+    width: 40px;
+    height: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+    margin-bottom: 23px;
+    
+}
+
+.Behance{
+    background-image: url(../img/Behance.png);
+}
+.Dribble{
+    background-image: url(../img/Dribble.png);
+}
+.Instagram{
+    background-image: url(../img/Instagram.png);
+}
+.LinkedIn{
+    background-image: url(../img/LinkedIn.png);
+}
+
+
