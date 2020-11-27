@@ -257,7 +257,7 @@ text-decoration: none;
     text-align: center;
     background-color: white;
     height: 620px;
-    width: 2600px;
+    
 }
 .title-fifth {
     padding-top: 114px ;
@@ -281,9 +281,10 @@ text-decoration: none;
 }
 
 .social-media {
-    width: 40px;
-    height: 40px;
-    position: relative;
+    display: flex;
+    width: 340px;
+    margin: 0 auto;
+    margin-top: 100px;
 }
 .social-img {
     width: 40px;
@@ -309,4 +310,9 @@ text-decoration: none;
     background-image: url(../img/LinkedIn.png);
 }
 
-
+.text-end {
+    color: #828282;
+    font-family: GiloryMedium;
+    font-size: 14px;
+    line-height: 17px;
+}
